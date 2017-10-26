@@ -11,7 +11,7 @@ Use [npm](https://www.npmjs.com/) to install [cote](https://github.com/dashersw/
 npm install cote
 ```
 
-Create your app using your favorite ide (if you have none, try [Atom](https://atom.io/)), lets name it `client.js`.
+Create your app using your favorite IDE (if you have none, try [Atom](https://atom.io/)), lets name it `client.js`.
 ``` javascript
 const cote = require('cote');
 
