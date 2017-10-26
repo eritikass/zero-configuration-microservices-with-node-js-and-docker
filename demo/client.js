@@ -4,7 +4,8 @@ const client = new cote.Requester({name: 'Contact client'});
 
 client.send({
 	type: 'add',
-	name: 'YOUR_NAME_HERE' // << write your name there
+	name: 'YOUR_NAME_HERE', // << write your name there
+	message: 'WRITE_YOUR_MESSAGE_HERE' // << and some world changing message you have there
 }).then(console.log).catch(console.log);
 
 // get all data send to server
